@@ -69,10 +69,9 @@ header .logo_pc{display:none;}
 #slide_banner img{width:100%;}
 
 #slide_banner button{position:absolute; top:265px; z-index:999; width:40px; height:40px; background:none; border:none; outline:none; color:transparent;}
-#slide_banner button:before{font-family:"xeicon"; color:#000; font-size:30px; font-weight:bold;}
-#slide_banner button.slick-prev{position:absolute; left:5%; color:transparent; cursor:pointer;}
+#slide_banner button.slick-prev{background: url(../images/prev_btn.png) no-repeat; background-size: contain;position:absolute; left:5%; color:transparent; cursor:pointer;}
 #slide_banner button.slick-prev:before{content:"\e93d";}
-#slide_banner button.slick-next{position:absolute; right:5%; color:transparent; cursor:pointer;}
+#slide_banner button.slick-next{background: url(../images/next_btn.png) no-repeat; background-size: contain;position:absolute; right:5%; color:transparent; cursor:pointer;}
 #slide_banner button.slick-next:before{content:"\e940";}
 
 #banner_wrap .indicator_wrap{position:relative; top:400px; left:0; cursor:pointer; z-index:999;}
@@ -361,12 +360,35 @@ margin-left:0; margin-right:0; margin-top:0;}
 #slide_banner_pc{display:block;}
 #slide_banner_pc img{width:100%; height:100%;}
 
-#slide_banner_pc button{position:absolute; top:190px; z-index:999; width:40px; height:40px; background:none; border:none; outline:none; text-indent:99999;}
-#slide_banner_pc button:before{font-family:"xeicon"; color:#000; font-size:40px; font-weight:bold;}
-#slide_banner_pc button.slick-prev{position:absolute; left:3%; color:transparent; cursor:pointer;}
-#slide_banner_pc button.slick-prev:before{content:"\e93d";}
-#slide_banner_pc button.slick-next{position:absolute; right:3%; color:transparent; cursor:pointer;}
-#slide_banner_pc button.slick-next:before{content:"\e940";}
+#slide_banner_pc button{
+  position:absolute; 
+  top:190px; 
+  z-index:999; 
+  width:40px; 
+  height:40px; 
+  background:none; 
+  border:none; 
+  outline:none; 
+  text-indent:99999;
+}
+
+#slide_banner_pc button.slick-prev{
+  background: url(../images/prev_btn.png) no-repeat; 
+  background-size: contain;
+  position:absolute; 
+  left:3%; 
+  color:transparent; 
+  cursor:pointer;
+}
+
+#slide_banner_pc button.slick-next{
+  background: url(../images/next_btn.png) no-repeat; 
+  background-size: contain;
+  position:absolute; 
+  right:3%; 
+  color:transparent; 
+  cursor:pointer;
+}
 
 #slide_banner{display:none;}
 
