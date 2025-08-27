@@ -1,1 +1,1 @@
-👉 모바일 페이지 보러가기: https://koreaunnie.github.io/mmca_rwd/
+👉 <a href="https://koreaunnie.github.io/mmca_rwd/" target="_blank">반응형 페이지 보러가기 🔗</a>
